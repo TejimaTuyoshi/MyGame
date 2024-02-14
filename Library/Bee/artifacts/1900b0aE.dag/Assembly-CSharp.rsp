@@ -376,6 +376,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/script/ect.cs"
+"Assets/script/goStage.cs"
 "Assets/script/messageless.cs"
 "Assets/script/messagesend.cs"
 "Assets/script/outobject.cs"
