@@ -66,6 +66,7 @@
     <Compile Include="Assets\script\ect.cs" />
     <Compile Include="Assets\script\outobject.cs" />
     <Compile Include="Assets\script\Player.cs" />
+    <Compile Include="Assets\script\jumpobject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

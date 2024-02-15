@@ -6,10 +6,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rbody2D;//当たり判定の名前の定義
     [SerializeField] float speed = 0.05f;//移動する際の一フレームあたりの移動距離
     [SerializeField] float jumpPower = 0.05f;//移動する際の一フレームあたりの移動距離
-    [SerializeField] int jumpCount = 0;
+    public int jumpCount = 0;
     bool notmove = false;
     private new SpriteRenderer renderer;//反転する
-    [SerializeField] SpriteRenderer non;
     [SerializeField] GameObject goalPanel;
     float _h;
 
@@ -39,7 +38,6 @@ public class Player : MonoBehaviour
     {
         if (_h != 0)
         {
-            non.flipX = (_h < 0);
             renderer.flipX = (_h < 0);
         }
     }
