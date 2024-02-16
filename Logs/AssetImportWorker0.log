@@ -4675,3 +4675,51 @@ Received Import Request.
 Start importing Assets/Scenes/Stage2.unity using Guid(b6aeee06d5eb2e34b9a4f6941e562df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a3cdcee9b67e312baac164c9e30088') in 0.000635 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 98.102428 seconds.
+  path: Assets/Scenes/Stage2.unity
+  artifactKey: Guid(b6aeee06d5eb2e34b9a4f6941e562df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2.unity using Guid(b6aeee06d5eb2e34b9a4f6941e562df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f8cb4e9e2f10e2c65bfae86bb8125d') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.005278 seconds.
+  path: Assets/Scenes/Stage3.unity
+  artifactKey: Guid(3da12a358e7c7a1438eaf1615a54dd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage3.unity using Guid(3da12a358e7c7a1438eaf1615a54dd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930f58ac71b13f52bef75cbd1c7dd67b') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.049853 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563f167a066f2ee89c02a8d067b66710') in 0.000536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 144.255558 seconds.
+  path: Assets/illust/教室の前の方（日中）.jpg
+  artifactKey: Guid(71c5dae07d45bad4aa2b798b6e039723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/illust/教室の前の方（日中）.jpg using Guid(71c5dae07d45bad4aa2b798b6e039723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdb6352f880cbaddb6eb1a28badf029') in 0.083080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 101.272659 seconds.
+  path: Assets/illust/22033815.png
+  artifactKey: Guid(97fabbb73d844f24eaa446ac9bff8dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/illust/22033815.png using Guid(97fabbb73d844f24eaa446ac9bff8dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119cc7e69bb97e3f049444c60be7320f') in 0.027966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 177.068045 seconds.
+  path: Assets/Font
+  artifactKey: Guid(420e30835eb9ead41a0638ca46f36dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font using Guid(420e30835eb9ead41a0638ca46f36dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbd9bd4f7a2a884023badeb683f7e0d') in 0.000689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
