@@ -4723,3 +4723,19 @@ Received Import Request.
 Start importing Assets/Font using Guid(420e30835eb9ead41a0638ca46f36dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbd9bd4f7a2a884023badeb683f7e0d') in 0.000689 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 685.207992 seconds.
+  path: Assets/Font/kkm_analogtv_v2.ttf
+  artifactKey: Guid(a471313483778114599d85270c9cef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/kkm_analogtv_v2.ttf using Guid(a471313483778114599d85270c9cef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8112a1b1637909b6d857e6d5eba2d6b2') in 0.088853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 353.773919 seconds.
+  path: Assets/Font/JF-Dot-milkjf16.ttf
+  artifactKey: Guid(deac3888bb60b1c44a0447183eaa31ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/JF-Dot-milkjf16.ttf using Guid(deac3888bb60b1c44a0447183eaa31ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed7cf77310e39c30f676d375ae06b48') in 0.026372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
