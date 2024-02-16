@@ -2407,6 +2407,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1509949031}
     m_Modifications:
     - target: {fileID: 3307997220249445621, guid: 62bad341070073e4b9c40e1accff1514, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3307997220249445621, guid: 62bad341070073e4b9c40e1accff1514, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3307997220249445621, guid: 62bad341070073e4b9c40e1accff1514, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.459173
       objectReference: {fileID: 0}
@@ -2663,6 +2671,14 @@ PrefabInstance:
       propertyPath: position
       value: 
       objectReference: {fileID: 1147085195}
+    - target: {fileID: 3537294830414001808, guid: 0cb4eb84bc37b7b45bb03f5a4224c02d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3537294830414001808, guid: 0cb4eb84bc37b7b45bb03f5a4224c02d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3537294830414001808, guid: 0cb4eb84bc37b7b45bb03f5a4224c02d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.73092
@@ -3355,6 +3371,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1041925904}
     - target: {fileID: 3537294830414001808, guid: 0cb4eb84bc37b7b45bb03f5a4224c02d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3537294830414001808, guid: 0cb4eb84bc37b7b45bb03f5a4224c02d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3537294830414001808, guid: 0cb4eb84bc37b7b45bb03f5a4224c02d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.3
       objectReference: {fileID: 0}
@@ -3747,7 +3771,7 @@ PrefabInstance:
     - target: {fileID: 9146239325972079677, guid: b8ad169c95a0b0344bfa62b97bd559ac, type: 3}
       propertyPath: position
       value: 
-      objectReference: {fileID: 1147085195}
+      objectReference: {fileID: 1119326099}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
