@@ -4667,3 +4667,11 @@ Received Import Request.
 Start importing Assets/Scenes/Stage4.unity using Guid(35e8a5fb925756a40bcb7cece72b2583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e73cdca3ca1c13f181b9aff0aca340') in 0.002216 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 66.843708 seconds.
+  path: Assets/Scenes/Stage2.unity
+  artifactKey: Guid(b6aeee06d5eb2e34b9a4f6941e562df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2.unity using Guid(b6aeee06d5eb2e34b9a4f6941e562df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a3cdcee9b67e312baac164c9e30088') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
