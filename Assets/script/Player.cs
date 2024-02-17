@@ -5,7 +5,10 @@ public class Player : MonoBehaviour
 {
     private Rigidbody2D rbody2D;//当たり判定の名前の定義
     [SerializeField] float speed = 0.05f;//移動する際の一フレームあたりの移動距離
-    [SerializeField] float jumpPower = 0.05f;//移動する際の一フレームあたりの移動距離
+    [SerializeField] float jumpPower = 0.05f;//ジャンプする際の一フレームあたりの移動距離
+    AudioSource audioSource;
+    [SerializeField] AudioClip _audio;
+    [SerializeField] AudioClip _audio2;
     public int jumpCount = 0;
     bool notmove = false;
     private new SpriteRenderer renderer;//反転する
@@ -16,6 +19,7 @@ public class Player : MonoBehaviour
     {
         rbody2D = GetComponent<Rigidbody2D>();
         renderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -30,6 +34,7 @@ public class Player : MonoBehaviour
         }
         if(Input.GetButtonDown("Jump")&& jumpCount <= 1 && notmove == false)
         {
+            audioSource.PlayOneShot(_audio);
             rbody2D.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             jumpCount++;
         }
@@ -59,6 +64,7 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.tag == "Goal")
         {
+            audioSource.PlayOneShot(_audio2);
             goalPanel.SetActive(true);
             notmove = true;
         }

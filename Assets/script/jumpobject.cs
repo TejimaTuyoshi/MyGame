@@ -6,10 +6,12 @@ using UnityEngine.UIElements;
 public class jumpobject : MonoBehaviour
 {
     [SerializeField] Player player;
+    AudioSource audioSource;
+    [SerializeField] AudioClip _audio;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,6 +24,7 @@ public class jumpobject : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            audioSource.PlayOneShot(_audio);
             if (player.jumpCount > 0)
             {
                 player.jumpCount -= 1;
