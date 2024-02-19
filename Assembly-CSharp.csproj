@@ -67,6 +67,7 @@
     <Compile Include="Assets\script\outobject.cs" />
     <Compile Include="Assets\script\Player.cs" />
     <Compile Include="Assets\script\jumpobject.cs" />
+    <Compile Include="Assets\script\CountDownTimer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] AudioClip _audio;
     [SerializeField] AudioClip _audio2;
     public int jumpCount = 0;
-    bool notmove = false;
+    public bool notmove = false;
     private new SpriteRenderer renderer;//”½“]‚·‚é
     [SerializeField] GameObject goalPanel;
     float _h;
