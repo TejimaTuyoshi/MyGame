@@ -109,5 +109,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextCountDown: {fileID: 6636762178384790314}
-  _overPanel: {fileID: 0}
+  _overPanel: {fileID: 8456357104855582982, guid: 1dc13faf9b3d29c4e80e023d8c0cb720, type: 3}
   _player: {fileID: 2799134009673710198, guid: 859df8ac92806924a85878e6979e9ff5, type: 3}
