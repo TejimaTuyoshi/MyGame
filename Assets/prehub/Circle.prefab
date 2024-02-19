@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {fileID: 0}
+  _audio: {fileID: 8300000, guid: b3fc0c5419594634386da5cf508fbd82, type: 3}
 --- !u!58 &7756747983045465925
 CircleCollider2D:
   m_ObjectHideFlags: 0
