@@ -46,16 +46,7 @@ public class Player : MonoBehaviour
             renderer.flipX = (_h < 0);
         }
     }
-    public void Addspeed(int power)
-    {
-        speed += power;
-
-        if (speed > 0)
-        {
-            Debug.Log("ƒXƒ^ƒ“’†...");
-        }
-    }
-
+ 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "ground")
