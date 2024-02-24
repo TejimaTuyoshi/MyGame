@@ -1,406 +1,410 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1708750675229349, "dur":1517, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708750675230875, "dur":138, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708750675231062, "dur":395, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708750675231658, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":0, "ts":1708750675231978, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1708750675232301, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1708750675231480, "dur":2421, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708750675233902, "dur":116183, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708750675350086, "dur":168, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708750675350255, "dur":167, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708750675350643, "dur":2229, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1708750675231603, "dur":2309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1708750675233916, "dur":4539, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1708750675238475, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1708750675238544, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708750675238666, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1708750675238809, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675238866, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675239071, "dur":429, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675239500, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675239625, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675239682, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675240004, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675240065, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675240169, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675240377, "dur":386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675240764, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675240914, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675240967, "dur":480, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675241448, "dur":327, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675241775, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675241858, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1708750675238543, "dur":3627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708750675242854, "dur":99501, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708750675345478, "dur":3642, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708750675345477, "dur":3645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1708750675349143, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1708750675232176, "dur":1876, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708750675234056, "dur":824, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708750675234880, "dur":3597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708750675238485, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1708750675243076, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1708750675245743, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1708750675246722, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1708750675248783, "dur":8360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1708750675257230, "dur":7081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":2, "ts":1708750675264390, "dur":6588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1708750675271048, "dur":8275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1708750675279366, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1708750675279629, "dur":6768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1708750675286489, "dur":9227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1708750675295752, "dur":54334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675232090, "dur":1945, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675234049, "dur":583, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675234632, "dur":3913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675238566, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1708750675238547, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1708750675238721, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675244422, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1708750675248368, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675248851, "dur":8814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708750675257712, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675257777, "dur":7703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708750675265504, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675265604, "dur":6439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708750675272171, "dur":8089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708750675280288, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1708750675280398, "dur":7153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708750675287631, "dur":9146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1708750675296818, "dur":53280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675232416, "dur":1673, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675234093, "dur":321, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675234415, "dur":4122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675238546, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":4, "ts":1708750675238538, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1708750675238626, "dur":452, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675244403, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1708750675248380, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675248894, "dur":10132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708750675259065, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675259337, "dur":6892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708750675266264, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675266339, "dur":7078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708750675273463, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675273561, "dur":7414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708750675281023, "dur":516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1708750675281555, "dur":7321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708750675288975, "dur":7881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1708750675296888, "dur":53191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708750675232454, "dur":1646, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708750675234101, "dur":4406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708750675238514, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1708750675238508, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1708750675238642, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708750675243081, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1708750675246054, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708750675247398, "dur":6449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1708750675253879, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1708750675254124, "dur":6061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1708750675260288, "dur":7599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1708750675267979, "dur":7326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1708750675275396, "dur":7467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1708750675282947, "dur":8092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1708750675291073, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1708750675293861, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level3" }}
-,{ "pid":12345, "tid":5, "ts":1708750675297636, "dur":52474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708750675231704, "dur":2218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708750675233926, "dur":985, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708750675234912, "dur":3577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708750675238496, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1708750675248746, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1708750675250835, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708750675251148, "dur":8803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1708750675259992, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708750675260105, "dur":7679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":6, "ts":1708750675267877, "dur":7169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1708750675275080, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708750675275202, "dur":7042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1708750675282279, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1708750675282521, "dur":7885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1708750675290494, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":6, "ts":1708750675292174, "dur":5077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1708750675297283, "dur":52836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708750675231810, "dur":2120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708750675233934, "dur":909, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708750675234843, "dur":3692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708750675238537, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1708750675238755, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708750675243558, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1708750675244533, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675244531, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675245188, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675248125, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708750675248737, "dur":8666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675257483, "dur":7778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675265344, "dur":6534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675271972, "dur":8098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675280141, "dur":7005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675287173, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1708750675287513, "dur":9101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1708750675296650, "dur":53444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675231895, "dur":2043, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675233941, "dur":861, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675234803, "dur":3723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675238548, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1708750675238528, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1708750675238712, "dur":487, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675243177, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1708750675246935, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675247507, "dur":7171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708750675254768, "dur":7135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708750675261968, "dur":6894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708750675268894, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675269027, "dur":7769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708750675276905, "dur":7666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708750675284611, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675284697, "dur":8672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1708750675293411, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1708750675293547, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1708750675297270, "dur":52844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675232001, "dur":1944, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675233948, "dur":1143, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675235091, "dur":3371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675238477, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1708750675238465, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1708750675239931, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1708750675243716, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1708750675243832, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675245167, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1708750675247491, "dur":6855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708750675254445, "dur":6491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708750675260964, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675261086, "dur":7053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708750675268171, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675268292, "dur":7501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708750675275822, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675276192, "dur":6893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708750675283119, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1708750675283432, "dur":8234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1708750675291750, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":9, "ts":1708750675295122, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level0" }}
-,{ "pid":12345, "tid":9, "ts":1708750675299379, "dur":50786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675232208, "dur":1858, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675234072, "dur":819, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675234891, "dur":3576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675238508, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1708750675238474, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1708750675238693, "dur":523, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675244258, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1708750675245678, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign.exe" }}
-,{ "pid":12345, "tid":10, "ts":1708750675248205, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675248751, "dur":8284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":10, "ts":1708750675257073, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675257200, "dur":7139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1708750675264431, "dur":6589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1708750675271116, "dur":8266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1708750675279413, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675279627, "dur":6946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1708750675286613, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1708750675286756, "dur":9736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1708750675296532, "dur":53551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675232327, "dur":1749, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675234079, "dur":983, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675235063, "dur":3437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675238513, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1708750675238501, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1708750675238600, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675248305, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1708750675249943, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675250344, "dur":9318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708750675259701, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675259772, "dur":6733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708750675266531, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675266817, "dur":6840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708750675273694, "dur":952, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675274657, "dur":6391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708750675281079, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1708750675281560, "dur":7425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708750675289019, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708750675289017, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708750675289131, "dur":11622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1708750675300783, "dur":49309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708750675232663, "dur":1495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708750675234159, "dur":4339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708750675238510, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":12, "ts":1708750675238499, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1708750675238596, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708750675244387, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1708750675247499, "dur":7168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708750675254770, "dur":7426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708750675262283, "dur":6826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708750675269186, "dur":8616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708750675277828, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1708750675278015, "dur":6728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708750675284816, "dur":8392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1708750675293270, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":12, "ts":1708750675296857, "dur":53219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675232725, "dur":1451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675234176, "dur":4283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675238471, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675238564, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675240672, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/app.info" }}
-,{ "pid":12345, "tid":13, "ts":1708750675243536, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1708750675243623, "dur":611, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675244449, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1708750675247832, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675248600, "dur":8071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708750675256719, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675256894, "dur":7071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708750675263992, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1708750675264090, "dur":6481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708750675270713, "dur":8412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708750675279223, "dur":7115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708750675286424, "dur":9859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1708750675296331, "dur":53758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708750675232574, "dur":1574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708750675234149, "dur":4350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708750675238500, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1708750675238629, "dur":454, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708750675244382, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1708750675247947, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708750675248536, "dur":7308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":14, "ts":1708750675255922, "dur":7257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":14, "ts":1708750675263265, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1708750675269584, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708750675269948, "dur":7789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1708750675277768, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1708750675278012, "dur":6867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1708750675284956, "dur":8998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1708750675294012, "dur":3594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level2" }}
-,{ "pid":12345, "tid":14, "ts":1708750675297632, "dur":52535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708750675232694, "dur":1471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708750675234166, "dur":4335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708750675238502, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":15, "ts":1708750675238608, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708750675244301, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":15, "ts":1708750675247683, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708750675248617, "dur":8058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708750675256763, "dur":7187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708750675263986, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708750675264093, "dur":6547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708750675270730, "dur":8259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708750675279131, "dur":7086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708750675286260, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1708750675286341, "dur":9269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1708750675295685, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":15, "ts":1708750675299300, "dur":50871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708750675232825, "dur":1544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708750675234371, "dur":4133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708750675238507, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1708750675238883, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708750675244709, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1708750675246634, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708750675247462, "dur":7208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708750675254752, "dur":7073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708750675261939, "dur":6742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708750675268711, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708750675268843, "dur":7780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708750675276773, "dur":7102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708750675283907, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708750675284014, "dur":9276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1708750675293376, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1708750675293541, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":16, "ts":1708750675297089, "dur":52993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675232850, "dur":1537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675234387, "dur":4143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675238532, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":17, "ts":1708750675238674, "dur":447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675243198, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":17, "ts":1708750675245979, "dur":414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675247255, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":17, "ts":1708750675252930, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675253257, "dur":6722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":17, "ts":1708750675260014, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675260102, "dur":6827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":17, "ts":1708750675266969, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675267184, "dur":6261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1708750675273480, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675273569, "dur":7334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1708750675280949, "dur":598, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1708750675281557, "dur":7584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1708750675289178, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":17, "ts":1708750675290810, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":17, "ts":1708750675293612, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":17, "ts":1708750675295198, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":17, "ts":1708750675299074, "dur":51033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675232758, "dur":1425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675234184, "dur":4276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675238697, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675238772, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675238839, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675239067, "dur":432, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675239500, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675239621, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675239678, "dur":323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675240002, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675240060, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675240116, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675240210, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675240383, "dur":375, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675240759, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675240921, "dur":524, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675241446, "dur":335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675241782, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675241851, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675238465, "dur":3756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":18, "ts":1708750675242222, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675243733, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675245049, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675245047, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675245138, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675245257, "dur":5016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675250309, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675250376, "dur":9279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675259691, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675259764, "dur":7161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675266957, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675267187, "dur":6587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675273810, "dur":800, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1708750675274627, "dur":7054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675281778, "dur":7668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1708750675289492, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":18, "ts":1708750675291773, "dur":3272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":18, "ts":1708750675295151, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":18, "ts":1708750675299906, "dur":50258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675232796, "dur":1461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675234258, "dur":4264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675238525, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":19, "ts":1708750675238693, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675243193, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":19, "ts":1708750675247032, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675247435, "dur":6408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":19, "ts":1708750675253875, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675254127, "dur":6305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":19, "ts":1708750675260464, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675260896, "dur":7161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":19, "ts":1708750675268088, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675268166, "dur":7242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1708750675275444, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1708750675275517, "dur":7308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1708750675282901, "dur":7871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1708750675290829, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":19, "ts":1708750675293818, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level4" }}
-,{ "pid":12345, "tid":19, "ts":1708750675297419, "dur":52732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675232873, "dur":1605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675234479, "dur":4061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675238542, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":20, "ts":1708750675238705, "dur":521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675244279, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":20, "ts":1708750675247777, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675248624, "dur":7797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":20, "ts":1708750675256455, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675256544, "dur":7125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":20, "ts":1708750675263705, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675263793, "dur":6555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1708750675270392, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675270470, "dur":7979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1708750675278480, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675278757, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1708750675285724, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1708750675285972, "dur":8283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1708750675294421, "dur":4004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level1" }}
-,{ "pid":12345, "tid":20, "ts":1708750675298454, "dur":51649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1708750675355106, "dur":1003, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1708751178779029, "dur":1574, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708751178780611, "dur":140, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708751178780812, "dur":460, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708751178781459, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1708751178781986, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708751178782336, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708751178782638, "dur":134, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708751178782868, "dur":113, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708751178783289, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1708751178781306, "dur":2688, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708751178783996, "dur":242024, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708751179026021, "dur":511, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708751179026795, "dur":1541, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1708751178781274, "dur":2731, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708751178784009, "dur":4535, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708751178788566, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1708751178788666, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708751178788795, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1708751178788927, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178788977, "dur":242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178789219, "dur":558, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178789778, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178789903, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178789986, "dur":337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178790370, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178790437, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178790549, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178790746, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178791061, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178791300, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178791378, "dur":524, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178791903, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178792221, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178792311, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1708751178788665, "dur":4033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708751178793399, "dur":98472, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708751178894835, "dur":3754, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708751178894834, "dur":3757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708751178898627, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1708751178899786, "dur":126212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178782244, "dur":1971, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178784218, "dur":752, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178784971, "dur":3611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178788599, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1708751178788583, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1708751178788728, "dur":522, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178794907, "dur":4530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1708751178799864, "dur":4764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708751178804664, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178804896, "dur":5155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708751178810092, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178810483, "dur":5690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708751178816273, "dur":6445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708751178822809, "dur":7105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708751178829943, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178830318, "dur":5773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708751178836132, "dur":718, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1708751178836859, "dur":8222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1708751178845119, "dur":180849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178781776, "dur":2296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178784076, "dur":1131, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178785207, "dur":3358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178788576, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1708751178788566, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1708751178788694, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178799707, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1708751178801128, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178801252, "dur":5590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708751178806874, "dur":808, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178807692, "dur":6080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708751178813811, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178813940, "dur":5576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708751178819546, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178819781, "dur":7324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708751178827134, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178827280, "dur":6292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708751178833601, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1708751178833772, "dur":6890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1708751178840736, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1708751178844513, "dur":181494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178783213, "dur":1243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178784456, "dur":4246, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178788706, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1708751178788808, "dur":650, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178794807, "dur":5288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1708751178800160, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178800224, "dur":5255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708751178805507, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178805606, "dur":6709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708751178812393, "dur":5580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708751178818007, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178818116, "dur":6602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708751178824748, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178825029, "dur":6924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708751178831981, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1708751178832314, "dur":6301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1708751178838647, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1708751178839807, "dur":3046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1708751178842920, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1708751178846585, "dur":179406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178781609, "dur":2456, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178784068, "dur":917, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178784985, "dur":3652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178788651, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1708751178788638, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1708751178788777, "dur":482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178794891, "dur":3922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1708751178798879, "dur":452, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178799669, "dur":4449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708751178804170, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178804239, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708751178809211, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178809321, "dur":5239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708751178814591, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178814799, "dur":5735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708751178820569, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178820778, "dur":7244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708751178828057, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1708751178828166, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708751178835073, "dur":7047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1708751178842535, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1708751178844356, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1708751178848601, "dur":177410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178781937, "dur":2143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178784083, "dur":799, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178784882, "dur":3757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178788640, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1708751178788817, "dur":540, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178794573, "dur":3942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1708751178798550, "dur":770, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178799651, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708751178804087, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178804243, "dur":5550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708751178809883, "dur":5644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708751178815559, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178815867, "dur":6316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708751178822211, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178822337, "dur":6576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708751178828940, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1708751178829182, "dur":6073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708751178835335, "dur":7086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1708751178842499, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1708751178845974, "dur":180057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178782029, "dur":2059, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178784092, "dur":1054, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178785146, "dur":3413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178788560, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1708751178788674, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178797216, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1708751178800339, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178800413, "dur":5731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708751178806180, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178806294, "dur":6421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708751178812792, "dur":5778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708751178818597, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178818945, "dur":6700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708751178825688, "dur":1082, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178826784, "dur":6280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708751178833090, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1708751178833300, "dur":6315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1708751178839663, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1708751178843217, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1708751178847228, "dur":178800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178782443, "dur":1779, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178784224, "dur":635, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178784859, "dur":3777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178788640, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1708751178788807, "dur":652, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178794922, "dur":5137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1708751178800194, "dur":5106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708751178805347, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178805421, "dur":5990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708751178811504, "dur":5494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708751178817033, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178817113, "dur":6668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708751178823821, "dur":313, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178824148, "dur":7196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708751178831429, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1708751178837994, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1708751178839560, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1708751178841911, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1708751178841981, "dur":3962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1708751178845977, "dur":180017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178782124, "dur":2081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178784211, "dur":824, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178785035, "dur":3526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178788562, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1708751178788692, "dur":455, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178792478, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1708751178793935, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1708751178794013, "dur":736, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178795499, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1708751178797387, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178799638, "dur":5635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708751178805305, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178805384, "dur":5452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708751178810858, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178811142, "dur":5348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708751178816516, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178816584, "dur":6665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708751178823354, "dur":7474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708751178830862, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178830939, "dur":6421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708751178837388, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1708751178837466, "dur":7693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1708751178845185, "dur":180828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708751178782563, "dur":1719, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708751178784282, "dur":4271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708751178788564, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1708751178788554, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1708751178788691, "dur":551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708751178794685, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1708751178796786, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign.exe" }}
+,{ "pid":12345, "tid":10, "ts":1708751178800173, "dur":5527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708751178805805, "dur":6558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708751178812433, "dur":5730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708751178818256, "dur":7130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708751178825428, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708751178825497, "dur":7023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708751178832549, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1708751178832822, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1708751178839327, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1708751178841340, "dur":4606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1708751178845988, "dur":180028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178782689, "dur":1602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178784292, "dur":4259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178788810, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178788912, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178788973, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178789224, "dur":546, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178789771, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178789898, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178789985, "dur":422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178790410, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178790510, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178790604, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178790783, "dur":267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178791050, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178791308, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178791390, "dur":515, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178791905, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178792222, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178792298, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\vantan\\leveldesain\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178788554, "dur":4143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":11, "ts":1708751178792699, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178793957, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178794989, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178794987, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178795575, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178799122, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178799583, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178802052, "dur":6156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178808235, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178808486, "dur":5762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178814323, "dur":5925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178820281, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178820429, "dur":7447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178827919, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178828109, "dur":6189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178834382, "dur":7059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1708751178841511, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1708751178841632, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1708751178844967, "dur":181035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708751178782895, "dur":1416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708751178784311, "dur":4397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708751178788719, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708751178788709, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708751178788801, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708751178794827, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1708751178800054, "dur":4927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708751178805070, "dur":5499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708751178810653, "dur":5647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708751178816326, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708751178816397, "dur":6426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708751178822912, "dur":7069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708751178830008, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708751178830320, "dur":5905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708751178836251, "dur":563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1708751178836826, "dur":7545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1708751178844433, "dur":4207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1708751178848668, "dur":177319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708751178782926, "dur":1390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708751178784317, "dur":4250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708751178788568, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1708751178788683, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708751178795534, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1708751178797281, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708751178799534, "dur":4651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708751178804271, "dur":5489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708751178809790, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708751178809880, "dur":5501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708751178815467, "dur":6165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708751178821660, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708751178822128, "dur":6436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708751178828592, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1708751178828838, "dur":6471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708751178835395, "dur":8391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1708751178843857, "dur":4949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1708751178848825, "dur":177199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178782537, "dur":1691, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178784234, "dur":461, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178784695, "dur":3945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178788641, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1708751178788795, "dur":570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178795642, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1708751178797418, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178799468, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708751178804175, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178804241, "dur":5228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708751178809552, "dur":5670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708751178815312, "dur":5743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708751178821356, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178821544, "dur":6845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708751178828425, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1708751178828488, "dur":6633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708751178835203, "dur":8243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1708751178843630, "dur":4518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1708751178848176, "dur":177867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708751178782796, "dur":1504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708751178784300, "dur":4252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708751178788566, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1708751178788554, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1708751178790043, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1708751178792786, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1708751178792873, "dur":639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708751178794829, "dur":5125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1708751178799995, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1708751178800142, "dur":5185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178805413, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178811539, "dur":5506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178817136, "dur":6355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178823584, "dur":7502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178831203, "dur":6450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178837679, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178837678, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178837776, "dur":10942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1708751178848744, "dur":177270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708751178782951, "dur":1441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708751178784393, "dur":4173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708751178788567, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1708751178788690, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708751178794451, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1708751178796615, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178796613, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178796764, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178801631, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708751178801699, "dur":6224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178808005, "dur":6192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178814285, "dur":5790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178820106, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708751178820237, "dur":7148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178827424, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708751178827765, "dur":6364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178834167, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1708751178834244, "dur":6348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1708751178840643, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":16, "ts":1708751178843777, "dur":4743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1708751178848550, "dur":177423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1708751178781460, "dur":2588, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1708751178784061, "dur":829, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1708751178784890, "dur":3659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1708751178788564, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1708751178788687, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1708751179023019, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/app.info" }}
+,{ "pid":12345, "tid":18, "ts":1708751178783134, "dur":1319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1708751178784453, "dur":4110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1708751178788564, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1708751178794758, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1708751178796780, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":18, "ts":1708751178798475, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":18, "ts":1708751178800501, "dur":6270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":18, "ts":1708751178806816, "dur":833, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1708751178807666, "dur":6118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":18, "ts":1708751178813821, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1708751178813942, "dur":6080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1708751178820054, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1708751178820236, "dur":7173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1708751178827449, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1708751178827815, "dur":6307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1708751178834219, "dur":6716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1708751178840989, "dur":5053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":18, "ts":1708751178846075, "dur":179987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1708751178783069, "dur":1374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1708751178784444, "dur":4118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1708751178788572, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":19, "ts":1708751178788563, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1708751178788701, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1708751179009877, "dur":4294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1708751179014216, "dur":11820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1708751178783241, "dur":1269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1708751178784511, "dur":4186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1708751178788709, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":20, "ts":1708751178788700, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1708751178788795, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1708751178794748, "dur":4540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1708751178799840, "dur":4499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":20, "ts":1708751178804376, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1708751178804451, "dur":5364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":20, "ts":1708751178809843, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1708751178809953, "dur":6143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1708751178816171, "dur":6468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1708751178822727, "dur":7057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1708751178829833, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1708751178829914, "dur":6206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1708751178836149, "dur":721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1708751178836893, "dur":7644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Downloads/UnderStandGame/leveldesign_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1708751178844575, "dur":181409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1708751179030556, "dur":2976, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
